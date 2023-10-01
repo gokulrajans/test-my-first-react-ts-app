@@ -1,10 +1,10 @@
 // src/components/Autocomplete/Autocomplete.tsx
 import React from 'react';
-import { Autocomplete, Input, Stack, TextField } from '@mui/material';
+import { Autocomplete, Stack, TextField } from '@mui/material';
 import { AutocompleteModel } from './Autocomplete.model';
 
 const AutocompleteComponent = (props: AutocompleteModel) => {
-  const { options, selectedOption, onOptionSelect } = props;
+  const { options } = props;
 
   return (
     <Stack spacing={2} sx={{ width: 300 }}>

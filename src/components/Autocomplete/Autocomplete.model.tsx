@@ -1,5 +1,4 @@
 // src/components/Autocomplete/Autocomplete.model.tsx
-import React from 'react';
 
 export interface AutocompleteModel {
 
@@ -10,7 +9,7 @@ export interface AutocompleteModel {
     selectedOption: null,
 
     // Function to handle option selection
-    onOptionSelect: () => {},
+    onOptionSelect: () => void,
 
     // Add other properties and functions as needed for your Autocomplete
-  };
+  }

@@ -1,5 +1,4 @@
 // src/components/Autocomplete/Autocomplete.stories.tsx
-import React from 'react';
 import { Meta, StoryObj } from '@storybook/react';
 import Autocomplete from './Autocomplete';
 import { AutocompleteModel } from './Autocomplete.model';
