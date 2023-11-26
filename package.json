@@ -1,6 +1,6 @@
 {
   "name": "test-my-first-react-ts-app",
-  "version": "1.0.0",
+  "version": "1.1.2023",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",

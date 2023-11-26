@@ -1,1 +1,3 @@
-export * from './components/Autocomplete/Autocomplete';
+import AutocompleteComponent from './components/Autocomplete/Autocomplete';
+
+export { AutocompleteComponent }
